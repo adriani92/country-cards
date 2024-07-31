@@ -1,0 +1,49 @@
+div.CardContainer{
+    position: relative;
+    padding: 10px 10px 40px 10px;
+    background-color: #FFFFFF;
+    border: 0.5px solid hsl(215, 35%, 89%);
+    border-radius: 1px;
+    margin: 20px 0;
+
+    max-width: 500px;
+}
+
+div.CardContainer .image-slider-img-active{
+    border-radius: 4px;
+}
+
+div.CardContainer figcaption{
+    padding: 10px;
+}
+
+div.CardContainer figcaption h3
+{
+    margin-bottom: 10px;
+}
+
+div.CardContainer figcaption p{
+    margin: 0;
+}
+
+div.CardContainer .card-like-icon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+}
+
+div.CardContainer .card-like-icon.lottie-like{
+    /* Lottie: */
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+
+    top: 0px;
+    right: 0px;
+}
+
+
+

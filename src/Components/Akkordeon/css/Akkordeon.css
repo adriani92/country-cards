@@ -1,0 +1,39 @@
+.akkordeon-single-tab-container{
+    padding: 15px 20px;
+    background-color: #FFFFFF;
+    border: 0.5px solid hsl(215, 35%, 89%);
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin-bottom: 2px;
+    max-width: 480px;
+}
+
+summary.akkordeon-summary{
+    display: flex;
+    justify-content: space-between;
+}
+
+.akkordeon-content{
+    padding: 10px;
+    padding-right: 5px
+}
+
+.akkordeon-content-point{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.akkordeon-content-point-hr{
+    height: 1px;
+    border: none;
+    background-color: hsl(215, 35%, 89%); 
+}
+
+.akkordeon-content-point form{
+    width: 100%;
+    height: 100%;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+} 

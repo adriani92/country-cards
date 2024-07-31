@@ -1,0 +1,73 @@
+body{
+    padding: 2vw;
+    box-sizing: content-box;
+    background-color: #F0F6FC;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+    margin: 0;
+}
+
+.App{
+    display: flex;
+    flex-direction: row;
+}
+
+.App main{
+    width: 80%;
+    min-width: 80%;
+    background-color: #F0F6FC;
+}
+
+main{
+    display: flex;
+}
+
+
+.left-main-row{
+    width: 100%
+}
+
+.iphone-frame {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+.iframe-container main{
+    width: 100%;
+}
+  .iframe-container {
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    position: relative;
+    z-index: 1;
+    pointer-events: auto; 
+    -webkit-overflow-scrolling: touch;
+  }
+  
+main, .app-content {
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
+    overflow: auto; 
+    height: 100%;
+    -webkit-overflow-scrolling: touch; 
+  }
+
+.iframe-container .letter-list-container{
+    position: sticky;
+    bottom: -390px;
+    top: 8px;
+
+}
+
+.letter-list-container{
+    position: fixed;
+    top: 8px;
+    right: 3px;
+    width: 20px;
+}
