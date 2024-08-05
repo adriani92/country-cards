@@ -2,17 +2,17 @@
 
 ![Country Cards Screenshot](https://kevinadrian.ch/wp/wp-content/uploads/2024/07/country-cards.png)
 
-**Country Cards** ist eine Demo-Website und Progressive Web App (PWA), die darauf ausgelegt ist, Daten aus einer Demodatenbank abzurufen (JSON-Daten). Die Anwendung präsentiert Informationen zu verschiedenen Städten, einschließlich Bildern und Beschreibungen. Nutzer können nach Länder und Kontinent mithilfe eines selbstprogrammierten Akkordeons filtern.
+**Country Cards** ist eine Demo-Website und Progressive Web App (PWA), die darauf ausgelegt ist, Daten aus einer Demodatenbank abzurufen (JSON-Daten). Die Anwendung präsentiert Informationen zu verschiedenen Städten, einschliesslich Bildern und Beschreibungen. Nutzer können nach Länder und Kontinent mithilfe eines selbstprogrammierten Akkordeons filtern.
 
 Zusätzlich gibt es einen Bilder-Slider und eine "Buchstaben-Scroll-Bar". Benutzer können so direkt zu den Städten mit dem gewählten Anfangsbuchstaben springen (falls vorhanden). Die Navigation ist sowohl touch-fähig als auch scrollbar.
 
 ## Teste die App
 
-[Country Cards testen](link-to-live-app](https://kevinadrian.ch/uploads/country-cards/)
+[Country Cards testen](https://kevinadrian.ch/uploads/country-cards/)
 
 ## Warum habe ich die Anwendung umgesetzt?
 
-Designtechnisch ließ ich mich von Google Design inspirieren, insbesondere von der MUI-Library. Solch schlichte Design-Elemente wollte ich auch mal umsetzen. Darum verwendet die Anwendung schlichte Weiß- und Grautöne sowie sehr dünne Ränder und dezente Schatten. Die MUI-Library kam zwar zum Einsatz, jedoch sparsam, hauptsächlich für Like-Icons und die Ladeanimation.
+Designtechnisch liess ich mich von Google Design inspirieren, insbesondere von der MUI-Library. Solch schlichte Design-Elemente wollte ich auch mal umsetzen. Darum verwendet die Anwendung schlichte Weiss- und Grautöne sowie sehr dünne Ränder und dezente Schatten. Die MUI-Library kam zwar zum Einsatz, jedoch sparsam, hauptsächlich für Like-Icons und die Ladeanimation.
 
 Technisch lag der Fokus auf TypeScript, einem Framework, das JavaScript um Typisierung erweitert und somit die Entwicklung effizienter und übersichtlicher macht. Ein weiteres Ziel war es, meine Fähigkeiten im Management von Komponenten zu verbessern. Die Anwendung umfasst vier Hauptkomponenten: das Akkordeon, eine Infokarte, einen Bilder-Slider und die Buchstabenscrollbar. Jede dieser Komponenten besteht wiederum aus weiteren Unterkomponenten.
 
