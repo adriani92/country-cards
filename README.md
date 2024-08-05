@@ -1,6 +1,6 @@
 # Country Cards
 
-![Country Cards Screenshot](https://kevinadrian.ch/wp/wp-content/uploads/2024/07/country-cards.pnge)
+![Country Cards Screenshot](https://kevinadrian.ch/wp/wp-content/uploads/2024/07/country-cards.png)
 
 **Country Cards** ist eine Demo-Website und Progressive Web App (PWA), die darauf ausgelegt ist, Daten aus einer Demodatenbank abzurufen (JSON-Daten). Die Anwendung präsentiert Informationen zu verschiedenen Städten, einschließlich Bildern und Beschreibungen. Nutzer können nach Länder und Kontinent mithilfe eines selbstprogrammierten Akkordeons filtern.
 
@@ -8,7 +8,7 @@ Zusätzlich gibt es einen Bilder-Slider und eine "Buchstaben-Scroll-Bar". Benutz
 
 ## Teste die App
 
-[Country Cards testen]([link-to-live-app](https://kevinadrian.ch/uploads/country-cards/))
+[Country Cards testen](link-to-live-app](https://kevinadrian.ch/uploads/country-cards/)
 
 ## Warum habe ich die Anwendung umgesetzt?
 
@@ -16,7 +16,7 @@ Designtechnisch ließ ich mich von Google Design inspirieren, insbesondere von d
 
 Technisch lag der Fokus auf TypeScript, einem Framework, das JavaScript um Typisierung erweitert und somit die Entwicklung effizienter und übersichtlicher macht. Ein weiteres Ziel war es, meine Fähigkeiten im Management von Komponenten zu verbessern. Die Anwendung umfasst vier Hauptkomponenten: das Akkordeon, eine Infokarte, einen Bilder-Slider und die Buchstabenscrollbar. Jede dieser Komponenten besteht wiederum aus weiteren Unterkomponenten.
 
-Mehr dazu lesen im [Portfolio](link-to-portfolio](https://kevinadrian.ch/project/Country%20Cards%20%E2%80%93%20Demo/cG9zdDo4Ng==)
+Mehr dazu lesen im [Portfolio](https://kevinadrian.ch/project/Country%20Cards%20%E2%80%93%20Demo/cG9zdDo4Ng==)
 
 
 
