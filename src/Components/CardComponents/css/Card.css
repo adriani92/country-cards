@@ -5,7 +5,6 @@ div.CardContainer{
     border: 0.5px solid hsl(215, 35%, 89%);
     border-radius: 1px;
     margin: 20px 0;
-
     max-width: 500px;
 }
 
@@ -36,11 +35,9 @@ div.CardContainer .card-like-icon{
 }
 
 div.CardContainer .card-like-icon.lottie-like{
-    /* Lottie: */
     width: 50px;
     height: 50px;
     border: 2px solid red;
-
     top: 0px;
     right: 0px;
 }

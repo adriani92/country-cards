@@ -19,10 +19,4 @@ export const AkkordeonCheckboxPoint:React.FC<Props> = ({title, value, defaultChe
         callbackOnClick?.({name: value, display: !isChecked})
     }
 
-    // console.debug("DATA:", data)
-
-
-  return (
-
-  )
 }

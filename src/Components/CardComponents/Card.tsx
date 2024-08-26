@@ -1,9 +1,6 @@
 import React, {useState, useRef} from 'react';
-
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import Lottie from 'react-lottie';
-import likeIcon from '../../Assets/like-it.json'
 
 import { Skeleton } from '@mui/material';
 
@@ -21,53 +18,14 @@ export const Card:React.FC<Props> = ({title, excerpt, imgLinks, loading}) => {
 
   const initLikedValue: boolean = false;
   const [liked, setLiked] = useState<boolean>(initLikedValue)
-  const lottieLike = useRef(null)
-
 
 
   function toggleLike():void{
     setLiked(!liked)
   }
 
-  // function toggleLottieLike():void{
-
-  //   setLiked(prevLiked => !prevLiked);
-
-  //   if (liked){
-  //     disLike()
-  //   } else{
-  //     like()
-  //   }
-
-  //   function like(){
-  //     console.log("like it. ")
-  //     const noLikeTillLike = [24, 80]
-  //     lottieLike?.current.playSegments(noLikeTillLike, true)
-  //   }
-
-  //   function disLike(){
-  //     console.log("dislike it ")
-  //     const likedTillNoLike = [80, 20]
-  //     lottieLike?.current.playSegments(likedTillNoLike, true)
-  //   }
-
-  // }
-
-
-  // const lottieOptions = {
-  //   loop: false,
-  //   autoplay: false,
-  //   animationData: likeIcon,
-  //   rendererSettings: {
-  //     preserveAspectRatio: "xMidYMid slice"
-  //   },
-  //   initialSegment: [24, likeIcon.op]
-  // }
-
-
   return (
     <div className = "CardContainer">
-
 
         {
           liked ? 
@@ -75,35 +33,12 @@ export const Card:React.FC<Props> = ({title, excerpt, imgLinks, loading}) => {
             className = "card-like-icon"
             onClick = {toggleLike}
             />
-
-            // <div className = "card-like-icon lottie-like"
-            // onClick = {toggleLottieLike}
-            // >
-            //   <Lottie 
-            //   ref={lottieLike}
-            //   options={lottieOptions}
-            //   />
-            // </div>
             
-
           :
             <FavoriteBorderIcon 
               className = "card-like-icon"
               onClick = {toggleLike}
             />
-
-
-            // <div className = "card-like-icon lottie-like"
-            // onClick = {toggleLottieLike}
-            // >
-            //   <Lottie  
-            //   ref={lottieLike}
-            //   options={lottieOptions}
-            //   />
-            // </div>
-            
-
-
         }
 
 
@@ -133,8 +68,6 @@ export const Card:React.FC<Props> = ({title, excerpt, imgLinks, loading}) => {
             </figcaption>
           </>
         }
-
-
 
     </div>
   )

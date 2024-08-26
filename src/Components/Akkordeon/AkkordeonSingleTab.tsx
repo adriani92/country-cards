@@ -1,9 +1,7 @@
 import React, {useRef} from 'react'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
-
 import { AkkordeonContentPoint } from './AkkordeonContentPoint.tsx';
-
 
 type Content= {
   title: string;

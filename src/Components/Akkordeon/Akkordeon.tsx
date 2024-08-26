@@ -1,28 +1,17 @@
 import React from 'react';
 import {useState} from 'react';
-
 import {AkkordeonSingleTab} from './AkkordeonSingleTab.tsx'
-
 import './css/Akkordeon.css'
 
-
-// type Content= {
-//   title: string;
-//   content: [string | JSX.Element];
-// ll?: (event: React.MouseEvent<HTMLLIElement>, ref: React.RefObject<HTMLLIElement> ) => void;
-// }
 
 type MenuStructure = {
   tabname: string,
   checkboxes?: string[]
 }
 
-
 type Props = {
     structure: MenuStructure[]
 }
-
-
 
 
 const Akkordeon: React.FC<Props> = ({structure})  => {
@@ -30,7 +19,6 @@ const Akkordeon: React.FC<Props> = ({structure})  => {
   const [isOpen, setIsOpen] = useState<number | null>(null)
 
   function handleClickOnListPoint(value: string, active: boolean){
-    console.debug("clicked on Listpoint:", value, "\nit is:", active)
   }
 
 

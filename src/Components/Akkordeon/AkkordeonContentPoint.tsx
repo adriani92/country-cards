@@ -13,12 +13,9 @@ export const AkkordeonContentPoint:React.FC<Props> = ({contentListPoint, handleC
 
     useEffect(()=>{
 
-      console.log("Fitler does display:", filterDoesDisplay)
-
       if (filterDoesDisplay?.includes(contentListPoint))
       {       
         setIsChecked(true)
-        console.debug("Yes filter is in array")
         
       }else{
           setIsChecked(false)
@@ -28,8 +25,6 @@ export const AkkordeonContentPoint:React.FC<Props> = ({contentListPoint, handleC
 
 
     function handleClick():void{
-        // setIsChecked(!isChecked)
-        console.debug({name: contentListPoint, display: !isChecked})
         filterFunction({name: contentListPoint, display: !isChecked})
     }
 

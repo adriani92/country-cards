@@ -5,10 +5,6 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h4{
-    margin: 0;
-}
-
 .App{
     display: flex;
     flex-direction: row;
@@ -70,4 +66,8 @@ main, .app-content {
     top: 8px;
     right: 3px;
     width: 20px;
+}
+
+h4{
+    margin: 0;
 }

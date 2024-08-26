@@ -6,8 +6,6 @@ type Props = {
     handleClick(index:number):void
 }
 
-
-
 export const ImageSliderIndexDot:React.FC<Props> = ({isActive, handleClick, index}) => {
   return (
     <button 

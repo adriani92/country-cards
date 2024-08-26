@@ -1,7 +1,3 @@
-// TODO
-//
-//
-
 
 import React, {useState, useEffect} from 'react'
 
@@ -20,7 +16,6 @@ export const useTouchPoint = (e:React.TouchEvent<HTMLImageElement>, action:boole
       case true:
         showDot(e)
         break;
-        // hideDot(e)
       default:
         break;
     }

@@ -5,12 +5,10 @@ figure.image-slider {
     overflow-x: hidden;
 }
 
-
 div.img-slides{
     display: flex;
     overflow: hidden;
 }
-
 
 .image-slider .img-slides{
     width: 100%;
@@ -20,7 +18,6 @@ div.img-slides{
 .img-dot-container{
     width: 100%;
 }
-
 
 .image-slider-img{
     object-fit: cover;
@@ -33,7 +30,6 @@ div.img-slides{
     flex-grow: 0;
     transition: translate 300ms ease-in-out;
 }
-
 
 .image-slider .img-dot-container{
     display: flex;
@@ -57,7 +53,6 @@ div.img-slides{
     text-decoration: none;
     text-align: center;
     cursor: pointer;
-
     width: 10px;
     height: 10px;
     background-color: #fdfdfd; 

@@ -20,8 +20,6 @@ export const Letter:React.FC<Props> = ({label, touchPosition, callback}) => {
     end: selfTop + selfHeight
   }
 
-
-
   useEffect(()=>{
 
     if (touchPosition !== null && touchPosition >= selfArea.start && touchPosition <= selfArea.end){
@@ -33,14 +31,11 @@ export const Letter:React.FC<Props> = ({label, touchPosition, callback}) => {
 
   },[touchPosition] )
 
-
-
   return (
     <>
     <Tooltip title={label} placement="left-start" arrow>
     <li 
       className = {active ? "ABCrollbar-li ABCrollbar-li-active" : "ABCrollbar-li"}
-      // onClick={} 
       ref={self}>
       {label}
     </li>

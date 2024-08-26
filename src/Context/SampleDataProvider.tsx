@@ -36,8 +36,6 @@ export const SampleDataProvider:React.FC<Props> = ({children}) => {
     
     function reducer(state: DataState, action: {type:string, payload: string | string[] | Destinations}){
 
-      console.debug("Youre calling reducer")
-
       let newState:DataState;
       let newFilters:[];
 
@@ -52,7 +50,6 @@ export const SampleDataProvider:React.FC<Props> = ({children}) => {
             return newState
 
         case "ADD_FILTER":
-          console.debug("Action 'ADD_FILTER'");
 
           newFilters = [...state.filterDoesDisplay, action.payload ]
 
@@ -66,8 +63,6 @@ export const SampleDataProvider:React.FC<Props> = ({children}) => {
           return newState;
 
         case "REMOVE_FILTER":
-          console.debug("Action 'REMOVE_FILTER'");
-
           newFilters = state.filterDoesDisplay.filter(element => element !== action.payload)
 
           newState = {
@@ -92,13 +87,6 @@ export const SampleDataProvider:React.FC<Props> = ({children}) => {
 
     }, [fetchedData])
 
-
-//TODO
-    // //////////////////////////////////
-        // //////////////////////////////////
-            // //////////////////////////////////
-
-
     function filter_fullData(fullData:Destinations, keywords:string[]){
 
         let filteredData;
@@ -109,8 +97,6 @@ export const SampleDataProvider:React.FC<Props> = ({children}) => {
               keywords.includes(destination.country)
               
           );
-  
-          console.log("FIltered Data:", filteredData)
 
         } else{
           filteredData = [];
@@ -134,9 +120,6 @@ export const SampleDataProvider:React.FC<Props> = ({children}) => {
 
     }
     
-    
-
-
   
   const providingValue = {
     data: !loading ? dataState.filteredData : null,

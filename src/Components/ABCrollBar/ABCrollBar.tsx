@@ -9,7 +9,6 @@ export const ABCrollBar:React.FC = () => {
 
  const [touchPosition, setTouchPosition] = useState<number | null>(null);
  const [mouseHolding, setMouseHolding] = useState<boolean>(false);
-
  const scrollBarRef = useRef<HTMLUListElement>(null);
 
 
@@ -17,7 +16,6 @@ export const ABCrollBar:React.FC = () => {
 
     scrollBarRef.current?.addEventListener('touchmove', prevent, {passive: false});
     
-
     return () => {
         scrollBarRef.current?.removeEventListener('touchmove', prevent);
     }
@@ -35,13 +33,8 @@ export const ABCrollBar:React.FC = () => {
      if (matchedTitleNode ){
         const CardOfmatchedTitleNode = matchedTitleNode.parentElement.parentElement
         CardOfmatchedTitleNode.scrollIntoView({ behavior: "smooth"})
-        //  window.scrollBy(0, 500);
      }
-
-    
  }
-
-
 
  function prevent(ev: TouchEvent):void{
      ev.preventDefault();
@@ -118,7 +111,6 @@ export const ABCrollBar:React.FC = () => {
     > 
         { createLetterNodes()}   
     </ul>
-
 
   )
 }

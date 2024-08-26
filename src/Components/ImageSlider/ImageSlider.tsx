@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import { ImageSliderIndexDots } from './ImageSliderIndexDotContainer.tsx';
 import { useSwipeable } from 'react-swipeable';
-
-
 import './css/ImageSlider.css'
 
 type Props = {
@@ -11,13 +9,11 @@ type Props = {
     imgLinks: [string, string?, string?, string?, string?],
 }
 
-
 export const ImageSlider:React.FC<Props> = ({imgLinks, title, excerpt}) => {
 
 const [activeImageIndex, setActiveImageIndex] = useState<number>(0);
 const numberOfSlides = imgLinks.length - 1;
 const [stopScroll, setStopScroll] = useState(false);
-
 
 const SwipeHandlers = useSwipeable({
     onSwiped: () => {setStopScroll(false)}, 
