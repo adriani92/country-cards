@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+# Country Cards
+
+![Country Cards Screenshot](https://kevinadrian.ch/wp/wp-content/uploads/2024/07/country-cards.png)
+
+**Country Cards** ist eine Demo-Website und Progressive Web App (PWA), die darauf ausgelegt ist, Daten aus einer Demodatenbank abzurufen (JSON-Daten). Die Anwendung präsentiert Informationen zu verschiedenen Städten, einschliesslich Bildern und Beschreibungen. Nutzer können nach Länder und Kontinent mithilfe eines selbstprogrammierten Akkordeons filtern.
+
+Zusätzlich gibt es einen Bilder-Slider und eine "Buchstaben-Scroll-Bar". Benutzer können so direkt zu den Städten mit dem gewählten Anfangsbuchstaben springen (falls vorhanden). Die Navigation ist sowohl touch-fähig als auch scrollbar.
+
+## Teste die App
+
+[Country Cards testen](https://kevinadrian.ch/uploads/country-cards/)
+
+## Warum habe ich die Anwendung umgesetzt?
+
+Designtechnisch liess ich mich von Google Design inspirieren, insbesondere von der MUI-Library. Solch schlichte Design-Elemente wollte ich auch mal umsetzen. Darum verwendet die Anwendung schlichte Weiss- und Grautöne sowie sehr dünne Ränder und dezente Schatten. Die MUI-Library kam zwar zum Einsatz, jedoch sparsam, hauptsächlich für Like-Icons und die Ladeanimation.
+
+Technisch lag der Fokus auf TypeScript, einem Framework, das JavaScript um Typisierung erweitert und somit die Entwicklung effizienter und übersichtlicher macht. Ein weiteres Ziel war es, meine Fähigkeiten im Management von Komponenten zu verbessern. Die Anwendung umfasst vier Hauptkomponenten: das Akkordeon, eine Infokarte, einen Bilder-Slider und die Buchstabenscrollbar. Jede dieser Komponenten besteht wiederum aus weiteren Unterkomponenten.
+
+Mehr dazu lesen im [Portfolio](https://kevinadrian.ch/project/Country%20Cards%20%E2%80%93%20Demo/cG9zdDo4Ng==)
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -28,43 +50,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
